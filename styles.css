@@ -164,8 +164,7 @@ header .family_image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
+  max-width: 600px;
   background: #6d597a;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
@@ -177,8 +176,9 @@ header .family_image:hover {
 }
 
 ul.skills {
+  display: inline-block
   padding: 0;
-  text-align: center;
+  text-align: right;
 }
 
 .skills li {
