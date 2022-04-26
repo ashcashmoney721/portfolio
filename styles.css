@@ -194,37 +194,26 @@ ul.skills {
   background: #16697a;
 }
 
-.img-chart {
+ th {
   max-width: 100%;
   height: auto;
+  text-align: left;
+}
+
+td {
+  max-width: 100%;
+  height: auto;
+  text-align: left;
 }
 
 .column {
   margin: 10px 10px 10px 10px
 }
 
-th {
-  float: left;
-  center: center;
-}
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
-
-th:first-child, td:first-child {
+.column {
   color: #fdffb6;
-  background: #4d194d;
-}
-
-th:last-child, td:last-child {
   background: #355070;
-  color: #fdffb6;
-  text-align: left;
+  text-align: left
 }
 
 footer {
