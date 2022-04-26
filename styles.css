@@ -199,8 +199,13 @@ ul.skills {
   height: auto;
 }
 
-th.column {
+.column {
+  margin: 10px 10px 10px 10px
+}
+
+th {
   float: left;
+  center: center;
 }
 
 .left {
